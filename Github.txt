@@ -1,0 +1,12 @@
+
+
+
+github = bu dasturchi uchun uning barcha loyihalari , kodlar iishlanmalariva saqlab boriladigan shaxsiy vertual kundalik
+
+
+
+github platformasining xususiyatlari - 
+1) yozilgan kodlar yoki loyihalar aniq manzilda va havfsiz saqlanadigan serverda virtual saqlanadi
+2) Istalgan masofadan uni boshqarib, kuzatib borish mumkin bo'ladi
+3) Telefon yoki istalgan kompyuter orqali yuklash va yuklab olish imkoniyati bor
+4) Istalgan kompaniya yoki IT korxonalarga topshirishda kerakli tayyor hujjat ko'rinishidir
