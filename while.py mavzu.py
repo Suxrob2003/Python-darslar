@@ -34,6 +34,9 @@
 #         break
 #     else:
 #         print(float(qiymat)**2)
+
+
+
 print("tug'ulgan yilingizni chiqarib beraman :")
 son = "yoshingiznikiriting ="
 while True:

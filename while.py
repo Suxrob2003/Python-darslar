@@ -34,11 +34,15 @@
 #         break
 #     else:
 #         print(float(qiymat)**2)
-print("tug'ulgan yilingizni chiqarib beraman :")
-son = "yoshingiznikiriting ="
-while True:
-    yoshingiz = input("yoshingizni kiriting:" )
-    if yoshingiz == '3' :
-        break
-    else:
-        print(float("siz" ,2023-yoshingiz , "yilda tug'ulgansiz!"))
+# print("tug'ulgan yilingizni chiqarib beraman :")
+# son = "yoshingiznikiriting ="
+# while True:
+#     yoshingiz = int(input("yoshingizni kiriting:" ))
+#     if yoshingiz == 3 :
+#         break
+#     elif yoshingiz == 5:
+#         print("xato yosh!")
+#     else:
+#         print("siz" ,2023-yoshingiz , "yilda tugulgansiz!")
+
+
