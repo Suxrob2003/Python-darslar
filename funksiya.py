@@ -1,51 +1,52 @@
-# funksiya bu = malum bir vazifani bajaradigan , shartlar o'zgaruvchilar va obyektlar bilan ishlaydigan ko'rinishdir 
+# masala 1 
+# def yigindi(*args):
+#     return args
+# a=10+30+50+70+90
+# print(a)
+
+# a = [2, 3, 4]
+# b= sum(a)
+# print(b)  
 
 
-# funksiyaning kalit so'zi - def
-
-# def - bu funksiyaning belgisi
-# salom - bu funksiyaning o'zgaruvchisi
-# def salom():
-#     # salom() - qavs bu funksiyaning argumenti
-#     print("Assalomu alaykum")
-# salom()
+# def y(*summa):
+#     return sum(summa)
+# print(y(20,30,40,50))
 
 
-######################################################
+# masala 2
+# def son_kopaytirish(**sonlar):
+#     kopaytma = 1
+#     for son in sonlar.values():
+#         kopaytma *= son
+#     return kopaytma
+# print(son_kopaytirish(son1=20,son2=10,son3=20))
+# kvargs usuli
+# def kopaytma(**summa):
+    # kopaytma = 1
+    # for i in summa.values():
+        # kopaytma *=i
+    # return kopaytma
+# print(kopaytma(s=2,g/=3,v=4,d=5,a=6,f=7))
 
 
-# def raqamlarni_kiriting() :
-#     print("1","2","3","4","5","6","7","8","9","0")
-# raqamlarni_kiriting()
-# def salom_ber(ism):
-#     """Fodyalanuvchi ismini qabul qilib, unga salom beruvchi funksiya"""
-#     print(f"Assalomu alaykum, hurmatli {ism.title()}!")
-# salom_ber('suxrob')
-
-
-######################################################
-
-
-# hisoblash - bu funksiyaning  nomi. uning ichidagi son1, son2 esa- uning agrumentlari deyiladi. Ya'ni vazifasi - huddi o'zgaruvchi yaratgandek, yaratiladi
-
-# def hisoblash(son1, son2, son3):
-#     print(son1,son2, son3)
-# hisoblash(1,23,10)
-
-
-
-####################################################
-
-
-# def ism_sharif(ism, familiya):
-#     print(f'Foydalanuvchining ismi = {ism.title()}, {familiya.title()}')
-# ism_sharif("Azizbek","G'ulomov")
+# masala 3
+# def kafe(*args):
+#     taomlar = ("taomlar","somsa","osh")
+#     ichimlik =('Pepsi', 'Fanta' , 'RedBull', 'Limonat')
+#     fast_food =('Burger', 'Lavash', 'Hod-dog')
+# a = (taomlar , ichimlik , fast_food)
+# print(a)
 
 
 
+# def kafe(*mahsulot):
+#     return mahsulot
+# taom = (kafe("tandir", 'somsa' , 'lagmon', 'shurva','manti'))
+# ichimlik = kafe("sok")
+# print(taom, ichimlik)
 
-# Vazifa - ism, sharif, yosh, manzil, universiter ma'lumotlarini talaba degan funksiya orqali to'ldiring
-def talaba(ism , sharif ,yosh ,manzil ,universitet malumotlari):
-    print(f'{ism} , {sharif}, yosh , manzil , universitet malumotlari !, {ism.title()} , {sharif.title()}')
-talaba("suxrob", "otabek o'g'li","21","qarshi shaxar", "neft va gaz fakulteti 3-kurs ")
 
+
+def viloyatlar(*viloyat):
+    return viloyat,
